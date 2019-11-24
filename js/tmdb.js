@@ -35,7 +35,7 @@ function getListMovie(services, sectiontitle) {
 
   }
     document.getElementById("movie_list").innerHTML = moviesHTML;
-    document.getElementById("section_title").innerHTML = sectiontitle
+    document.getElementById("section_title").innerHTML = sectiontitle;
   })
   .catch(error);
 }
